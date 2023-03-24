@@ -9,3 +9,7 @@
 
 - CSR vs SSR
 - Styled-components 와 Next.js 함께 사용하기
+
+- 리팩토링\_API 모듈 분리
+  https://ghost4551.tistory.com/163
+  https://velog.io/@hsk10271/TIL-33
