@@ -14,4 +14,4 @@ Socket.io
 
 Swagger
 
-localstorage Recoil 연동 라이브러리
+localstorage Recoil 연동 라이브러리, effect 새로고침시 데이터 날라가는 거 방지할떄
