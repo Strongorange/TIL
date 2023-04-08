@@ -7,11 +7,10 @@
 
 ### Next.JS
 
-- CSR vs SSR
-- Styled-components 와 Next.js 함께 사용하기
-
 Socket.io
 
 Swagger
 
 localstorage Recoil 연동 라이브러리, effect 새로고침시 데이터 날라가는 거 방지할떄
+
+디자인 패턴
