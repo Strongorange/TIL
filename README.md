@@ -5,12 +5,8 @@
 
 ### ETC
 
-### Next.JS
-
-Socket.io
-
-Swagger
+### 공부 할 것
 
 localstorage Recoil 연동 라이브러리, effect 새로고침시 데이터 날라가는 거 방지할떄
 
-디자인 패턴
+socket사용
