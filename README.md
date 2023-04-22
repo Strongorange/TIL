@@ -10,3 +10,5 @@
 localstorage Recoil 연동 라이브러리, effect 새로고침시 데이터 날라가는 거 방지할떄
 
 socket사용
+
+Flutter 정리
