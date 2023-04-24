@@ -12,3 +12,5 @@ localstorage Recoil 연동 라이브러리, effect 새로고침시 데이터 날
 socket사용
 
 Flutter 정리
+
+Android 에서는 Settimeout 작동하지 않음
