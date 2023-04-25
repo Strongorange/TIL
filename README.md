@@ -14,3 +14,5 @@ socket사용
 Flutter 정리
 
 Android 에서는 Settimeout 작동하지 않음
+
+effect
