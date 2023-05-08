@@ -18,3 +18,6 @@ Android 에서는 Settimeout 작동하지 않음
 effect
 
 Flat List Styled component
+
+react query 사용해보기
+useSSR 사용해보기
