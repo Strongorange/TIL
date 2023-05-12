@@ -20,4 +20,6 @@ effect
 Flat List Styled component
 
 react query 사용해보기
-useSSR 사용해보기
+useSWR 사용해보기
+Axios Interceptor
+HttpOnly 쿠키 핸들링 과정
