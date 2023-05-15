@@ -24,3 +24,5 @@ useSWR 사용해보기
 Axios Interceptor
 HttpOnly 쿠키 핸들링 과정
 Spring, 자바
+
+Typescript Key of, 'user in 타입`
