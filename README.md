@@ -30,6 +30,7 @@ Styled-Components React Native Declare 오류
 
 React Navigation Type
 RN에서 ENV 사용
+RN 구글 지도 적용
 
 #### RN route
 
