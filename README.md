@@ -28,6 +28,9 @@ Typescript Key of, 'user in 타입`
 proj4
 Styled-Components React Native Declare 오류
 
+React Navigation Type
+RN에서 ENV 사용
+
 #### RN route
 
 React Navigation v5 이상에서는 route prop을 통해 전달된 parameter에 접근할 수 있습니다. 이 route prop은 현재 화면의 정보, parameter를 포함합니다.
