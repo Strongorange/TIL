@@ -107,3 +107,24 @@ type ProfileScreenRouteProp = RouteProp<RootStackParamList, "Profile">;
 ```
 
 ## Nesting Navigators
+
+중첩된 `Navigator`의 `Screen`으로 이동하려면 `navigation.navigate`를 사용해 `screen`과 `params`를 넘겨주어 이동할 수 있다.
+
+```typescript
+// "Home"은
+navigation.navigate("Home", {
+  screen: "Feed",
+  params: { sort: "latest" },
+});
+```
+
+이 상황에서 타입을 체크하기 위해서 중첩된 `Navigator`의 `Screen`에서 `params`를 추출해야하고 이를 도와주는 `NavigatorScreenParams` 유틸리티를 사용한다.
+
+```typescript
+import { NavigatorScreenParams } from "@react-navigation/native";
+
+type TabParamList = {
+  Home: NavigatorScreenParams<StackParamList>;
+  Profile: { userId: string };
+};
+```

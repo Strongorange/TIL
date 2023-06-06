@@ -21,6 +21,7 @@ RN 구글 지도 적용
 Firebase messaging
 Price Crush의 ./src/types/styled.d.ts 에서 theme 타입을 어떻게
 큐 를 사용한 유저 매칭 시스템 프론트에서 처리
+React Virtual DOM
 
 #### RN route
 
