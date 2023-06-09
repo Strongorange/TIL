@@ -13,52 +13,9 @@ HttpOnly 쿠키 핸들링 과정
 Spring, 자바
 Typescript Key of, 'user in 타입`
 proj4
-Styled-Components React Native Declare 오류
 
-React Navigation Type
-RN에서 ENV 사용
 RN 구글 지도 적용
 Firebase messaging
 Price Crush의 ./src/types/styled.d.ts 에서 theme 타입을 어떻게
-큐 를 사용한 유저 매칭 시스템 프론트에서 처리
 React Virtual DOM
 리액트 목터뷰
-useAsyncEffect
-
-#### RN route
-
-React Navigation v5 이상에서는 route prop을 통해 전달된 parameter에 접근할 수 있습니다. 이 route prop은 현재 화면의 정보, parameter를 포함합니다.
-
-먼저, navigation parameter의 타입을 지정해야 합니다. 이를 위해 ParamListBase를 사용하여 적절한 타입을 지정하면 됩니다.
-
-tsx
-Copy code
-import { RouteProp } from "@react-navigation/native";
-
-type StackParamList = {
-MessagesCRUD: {
-key: string;
-};
-};
-
-type MessagesCRUDScreenRouteProp = RouteProp<StackParamList, "MessagesCRUD">;
-
-interface MessagesCRUDProps {
-route: MessagesCRUDScreenRouteProp;
-}
-
-const MessagesCRUD = ({ route }: MessagesCRUDProps) => {
-const { key } = route.params;
-
-return (
-<View>
-<Text>MessagesCRUD</Text>
-<Text>{key}</Text>
-</View>
-);
-};
-
-export default MessagesCRUD;
-위의 코드에서 RouteProp을 사용하여 MessagesCRUD screen의 parameter의 타입을 지정했습니다. 그리고 이를 MessagesCRUDProps에 추가하여 route prop에서 key 값을 받아와 사용할 수 있게 했습니다.
-
-이제 MessagesCRUD screen에서 key 값을 출력할 수 있습니다.
