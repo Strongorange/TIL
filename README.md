@@ -8,7 +8,6 @@
 ### 공부 할 것
 
 react query 사용해보기
-Axios Interceptor
 HttpOnly 쿠키 핸들링 과정  
 Typescript Key of, 'user in 타입`
 proj4
@@ -16,5 +15,3 @@ proj4
 Firebase messaging
 React Virtual DOM
 리액트 목터뷰
-
-React Native ToolTip
