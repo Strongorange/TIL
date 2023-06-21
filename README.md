@@ -7,7 +7,6 @@
 
 ### 공부 할 것
 
-react query 사용해보기
 redux
 redux saga?
 HttpOnly 쿠키 핸들링 과정  
