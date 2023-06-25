@@ -6,3 +6,5 @@
 ### ETC
 
 ### 공부 할 것
+
+Socket, form-data 핸들링
