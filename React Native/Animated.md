@@ -155,3 +155,19 @@ static start(callback?: (result: {finished: boolean}) => void);
 ```
 
 애니메이션은 반드시 start 메소드를 사용해야 적용된다.
+
+### interpolation
+
+만약 컴포넌트의 사이즈가 1에서 2로 바뀔때 컬러를 바꾸고 싶다면 `parallel` 메소드로 여러 애니메이션을 동시에 실행시켜 바꾸게 할 수도 있지만 `interpolation` 을 이용하면 더 간단하고 예측가능한 코드를 작성할 수 있다.
+
+**Interpolation**의 자세한 설명은 [Interpolation with React Native Animations](https://eveningkid.medium.com/interpolation-with-react-native-animations-853e467fe5c1) 글에서 자세히 되어있다.
+요약하면 `Animated.Value` 의 범위에 종속적으로 값이 변하는 값을 만드는 기능이다.
+
+```typescript
+const animatedValue = useRef(new Animated.Value(1)).current;
+
+const backgroundColorOfComponent = animatedValue.interpolate({
+  inputRange: [1, 1.5], // animatedValue가 timing메소드의 config toValue 값으로 바뀌는 범위
+  outputRange: ["orange", "blue"], // animatedValue가 1일때 "orange", 1.5 일때 "blue" 1과 1.5 사이로 값이 움직일때 backgroundColorOfComponent 의 값은 "orange" 와 "blue" 사이에서 자동으로 변함
+});
+```
